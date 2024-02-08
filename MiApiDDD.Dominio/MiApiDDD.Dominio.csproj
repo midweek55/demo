@@ -11,5 +11,9 @@
       <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.1" />
     </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\MiApiDDD.Common\MiApiDDD.Common.csproj" />
+    </ItemGroup>
 
 </Project>

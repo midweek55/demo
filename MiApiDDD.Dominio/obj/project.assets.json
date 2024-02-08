@@ -240,6 +240,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "MiApiDDD.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MiApiDDD.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiApiDDD.Common.dll": {}
+        }
       }
     }
   },
@@ -635,12 +645,18 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "MiApiDDD.Common/1.0.0": {
+      "type": "project",
+      "path": "../MiApiDDD.Common/MiApiDDD.Common.csproj",
+      "msbuildProject": "../MiApiDDD.Common/MiApiDDD.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "MediatR >= 11.1.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
+      "MiApiDDD.Common >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.1"
     ]
   },
@@ -668,7 +684,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Common/MiApiDDD.Common.csproj": {
+              "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Common/MiApiDDD.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

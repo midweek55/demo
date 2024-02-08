@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiApiDDD.Infraestructura", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiApiDDD.Apis", "MiApiDDD.Apis\MiApiDDD.Apis.csproj", "{745DD71D-766D-43B3-8FEA-47F8C85B52E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiApiDDD.Common", "MiApiDDD.Common\MiApiDDD.Common.csproj", "{83597095-A1D7-4693-B010-281B9EB638EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{745DD71D-766D-43B3-8FEA-47F8C85B52E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{745DD71D-766D-43B3-8FEA-47F8C85B52E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{745DD71D-766D-43B3-8FEA-47F8C85B52E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83597095-A1D7-4693-B010-281B9EB638EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83597095-A1D7-4693-B010-281B9EB638EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83597095-A1D7-4693-B010-281B9EB638EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83597095-A1D7-4693-B010-281B9EB638EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

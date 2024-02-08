@@ -4,3 +4,15 @@
 /home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/obj/Debug/net8.0/MiApiDDD.Aplicacion.AssemblyInfo.cs
 /home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/obj/Debug/net8.0/MiApiDDD.Aplicacion.csproj.CoreCompileInputs.cache
 /home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/obj/Debug/net8.0/MiApiDDD.Aplicacion.sourcelink.json
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/bin/Debug/net8.0/MiApiDDD.Aplicacion.deps.json
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/bin/Debug/net8.0/MiApiDDD.Aplicacion.dll
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/bin/Debug/net8.0/MiApiDDD.Aplicacion.pdb
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/bin/Debug/net8.0/MiApiDDD.Common.dll
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/bin/Debug/net8.0/MiApiDDD.Dominio.dll
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/bin/Debug/net8.0/MiApiDDD.Common.pdb
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/bin/Debug/net8.0/MiApiDDD.Dominio.pdb
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/obj/Debug/net8.0/MiApiDDD.Aplicacion.csproj.CopyComplete
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/obj/Debug/net8.0/MiApiDDD.Aplicacion.dll
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/obj/Debug/net8.0/refint/MiApiDDD.Aplicacion.dll
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/obj/Debug/net8.0/MiApiDDD.Aplicacion.pdb
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/obj/Debug/net8.0/ref/MiApiDDD.Aplicacion.dll
