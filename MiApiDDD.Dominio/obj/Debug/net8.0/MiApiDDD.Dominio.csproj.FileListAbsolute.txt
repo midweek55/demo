@@ -1,0 +1,13 @@
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/bin/Debug/net8.0/MiApiDDD.Dominio.deps.json
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/bin/Debug/net8.0/MiApiDDD.Dominio.dll
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/bin/Debug/net8.0/MiApiDDD.Dominio.pdb
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/MiApiDDD.Dominio.csproj.AssemblyReference.cache
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/MiApiDDD.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/MiApiDDD.Dominio.AssemblyInfoInputs.cache
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/MiApiDDD.Dominio.AssemblyInfo.cs
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/MiApiDDD.Dominio.csproj.CoreCompileInputs.cache
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/MiApiDDD.Dominio.dll
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/refint/MiApiDDD.Dominio.dll
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/MiApiDDD.Dominio.pdb
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/ref/MiApiDDD.Dominio.dll
+/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/Debug/net8.0/MiApiDDD.Dominio.sourcelink.json

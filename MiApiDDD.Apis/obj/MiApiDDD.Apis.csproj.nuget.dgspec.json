@@ -1,0 +1,289 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Apis/MiApiDDD.Apis.csproj": {}
+  },
+  "projects": {
+    "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Apis/MiApiDDD.Apis.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Apis/MiApiDDD.Apis.csproj",
+        "projectName": "MiApiDDD.Apis",
+        "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Apis/MiApiDDD.Apis.csproj",
+        "packagesPath": "/home/midweek/.nuget/packages/",
+        "outputPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Apis/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/midweek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/MiApiDDD.Aplicacion.csproj": {
+                "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/MiApiDDD.Aplicacion.csproj"
+              },
+              "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Infraestructura/MiApiDDD.Infraestructura.csproj": {
+                "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Infraestructura/MiApiDDD.Infraestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/MiApiDDD.Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/MiApiDDD.Aplicacion.csproj",
+        "projectName": "MiApiDDD.Aplicacion",
+        "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/MiApiDDD.Aplicacion.csproj",
+        "packagesPath": "/home/midweek/.nuget/packages/",
+        "outputPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/midweek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/MiApiDDD.Dominio.csproj": {
+                "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/MiApiDDD.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/MiApiDDD.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/MiApiDDD.Dominio.csproj",
+        "projectName": "MiApiDDD.Dominio",
+        "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/MiApiDDD.Dominio.csproj",
+        "packagesPath": "/home/midweek/.nuget/packages/",
+        "outputPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/midweek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Infraestructura/MiApiDDD.Infraestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Infraestructura/MiApiDDD.Infraestructura.csproj",
+        "projectName": "MiApiDDD.Infraestructura",
+        "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Infraestructura/MiApiDDD.Infraestructura.csproj",
+        "packagesPath": "/home/midweek/.nuget/packages/",
+        "outputPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Infraestructura/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/midweek/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/MiApiDDD.Aplicacion.csproj": {
+                "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Aplicacion/MiApiDDD.Aplicacion.csproj"
+              },
+              "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/MiApiDDD.Dominio.csproj": {
+                "projectPath": "/home/midweek/Escritorio/example/MiApiDDD/MiApiDDD.Dominio/MiApiDDD.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
