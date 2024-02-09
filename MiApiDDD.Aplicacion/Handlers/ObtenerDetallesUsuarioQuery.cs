@@ -1,10 +1,9 @@
 using MediatR;
-using MiApiDDD.Aplicacion.DTOs;
 using MiApiDDD.Dominio.Interfaces;
 using System.Threading;
 using System.Threading.Tasks;
 using MiApiDDD.Aplicacion.Queries;
-using UsuarioDto = MiApiDDD.Aplicacion.DTOs.UsuarioDto;
+using UsuarioDto = MiApiDDD.Common.DTOs.UsuarioDto;
 
 namespace MiApiDDD.Aplicacion.Handlers
 {
@@ -17,7 +16,7 @@ namespace MiApiDDD.Aplicacion.Handlers
             _usuarioRepository = usuarioRepository;
         }
 
-        public async Task<UsuarioDto> Handle(ObtenerDetallesUsuarioQuery request, CancellationToken cancellationToken)
+        public async Task<UsuarioDto?> Handle(ObtenerDetallesUsuarioQuery request, CancellationToken cancellationToken)
         {
             return await _usuarioRepository.ObtenerDetallesUsuarioAsync(request.UsuarioId);
         }

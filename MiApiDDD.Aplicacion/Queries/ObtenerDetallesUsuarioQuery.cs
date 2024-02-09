@@ -1,5 +1,5 @@
 using MediatR;
-using MiApiDDD.Aplicacion.DTOs;
+using MiApiDDD.Common.DTOs;
 
 namespace MiApiDDD.Aplicacion.Queries
 {

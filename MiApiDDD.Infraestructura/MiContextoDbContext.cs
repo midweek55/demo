@@ -12,7 +12,7 @@ namespace MiApiDDD.Infraestructura
         {
         }
 
-        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
         public DbSet<Rol> Roles { get; set; }
         public DbSet<Modulo> Modulos { get; set; }
         public DbSet<RolUsuario> RolUsuarios { get; set; }
@@ -22,6 +22,9 @@ namespace MiApiDDD.Infraestructura
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            
+            modelBuilder.Entity<Usuario>().ToTable("Usuario", "Administracion");
+            
             // Configuración de RolUsuario
             modelBuilder.Entity<RolUsuario>(entity =>
             {

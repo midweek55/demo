@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using MiApiDDD.Aplicacion.DTOs;
+using MiApiDDD.Common.DTOs;
 
 namespace MiApiDDD.Dominio.Interfaces
 {

@@ -1,4 +1,4 @@
-using MiApiDDD.Aplicacion.DTOs;
+using MiApiDDD.Common.DTOs;
 using MiApiDDD.Dominio.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,20 +26,19 @@ public class UsuarioRepository : IUsuarioRepository, Aplicacion.Contratos.IUsuar
     }
     
 
+
     public async Task<UsuarioDto> ObtenerDetallesUsuarioAsync(Guid usuarioId)
     {
-        var usuarioConRol = await _context.Usuarios
+        var usuario = await _context.Usuario
             .Where(u => u.Id == usuarioId)
             .Select(u => new UsuarioDto
             {
                 Nombre = u.Nombres,
                 Apellidos = u.Apellidos,
-                Rol = u.RolUsuarios
-                    .Select(ru => ru.Rol.Nombre) // Asume que existe la propiedad NOMBRE en Rol
-                    .FirstOrDefault() // Obtiene el nombre del primer rol
+                Rol = u.RolUsuarios.Select(ru => ru.Rol.Nombre).FirstOrDefault() // Asume que RolUsuarios es la colección de entidades de unión entre Usuario y Rol
             })
             .FirstOrDefaultAsync();
 
-        return usuarioConRol;
+        return usuario;
     }
 }

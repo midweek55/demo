@@ -1,4 +1,4 @@
-namespace MiApiDDD.Aplicacion.DTOs
+namespace MiApiDDD.Common.DTOs
 {
     public class UsuarioDto
     { 

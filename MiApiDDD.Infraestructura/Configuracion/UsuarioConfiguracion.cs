@@ -8,7 +8,7 @@ namespace MiApiDDD.Infraestructura.Configuracion
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
         {
-            builder.ToTable("Usuarios"); // Asegúrate de que el nombre de la tabla coincida con tu base de datos.
+            builder.ToTable("Usuario"); // Asegúrate de que el nombre de la tabla coincida con tu base de datos.
 
             builder.HasKey(u => u.Id); // Configura la clave primaria, asumiendo que se llama Id en tu base de datos.
 
