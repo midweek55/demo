@@ -24,9 +24,6 @@ public class UsuarioRepository : IUsuarioRepository, Aplicacion.Contratos.IUsuar
 
         return nombresModulos;
     }
-    
-
-
     public async Task<UsuarioDto> ObtenerDetallesUsuarioAsync(Guid usuarioId)
     {
         var usuario = await _context.Usuario
@@ -36,6 +33,23 @@ public class UsuarioRepository : IUsuarioRepository, Aplicacion.Contratos.IUsuar
                 Nombre = u.Nombres,
                 Apellidos = u.Apellidos,
                 Rol = u.RolUsuarios.Select(ru => ru.Rol.Nombre).FirstOrDefault() // Asume que RolUsuarios es la colección de entidades de unión entre Usuario y Rol
+            })
+            .FirstOrDefaultAsync();
+
+        return usuario;
+    }
+    
+    public async Task<UsuarioDto> ObtenerUsuarioYModulosAsync(Guid usuarioId)
+    {
+        var usuario = await _context.Usuario
+            .Where(u => u.Id == usuarioId)
+            .Select(u => new UsuarioDto
+            {
+                Nombre = u.Nombres,
+                Apellidos = u.Apellidos,
+                Rol = u.RolUsuarios.Select(ru => ru.Rol.Nombre).FirstOrDefault(),
+                Modulos = u.RolUsuarios.SelectMany(ru => ru.Rol.PermisoRoles)
+                    .Select(pr => pr.AccionModulo.Modulo.Nombre).Distinct().ToList()
             })
             .FirstOrDefaultAsync();
 

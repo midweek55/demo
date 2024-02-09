@@ -9,5 +9,7 @@ namespace MiApiDDD.Dominio.Interfaces
     {
         Task<List<string>> ObtenerNombresModulosPorUsuarioIdAsync(Guid usuarioId);
         Task<UsuarioDto> ObtenerDetallesUsuarioAsync(Guid usuarioId);
+        
+        Task<UsuarioDto> ObtenerUsuarioYModulosAsync(Guid usuarioId);
     }
 }

@@ -38,4 +38,23 @@ public class UsuariosController : ControllerBase
         }
         return Ok(detallesUsuario);
     }
+    
+    [HttpGet("{usuarioId}")]
+    public async Task<IActionResult> GetUsuarioYModulos(Guid usuarioId)
+    {
+        var usuarioConModulos = await _usuarioRepository.ObtenerUsuarioYModulosAsync(usuarioId);
+        if (usuarioConModulos == null)
+        {
+            return NotFound();
+        }
+
+        var response = new
+        {
+            status = 200,
+            message = "Successful",
+            data = usuarioConModulos
+        };
+
+        return StatusCode(200,response);
+    }
 }
