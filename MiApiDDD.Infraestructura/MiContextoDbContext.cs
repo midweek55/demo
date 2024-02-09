@@ -23,7 +23,7 @@ namespace MiApiDDD.Infraestructura
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             
-            modelBuilder.Entity<Usuario>().ToTable("Usuario", "Administracion");
+            modelBuilder.Entity<Usuario>().ToTable("USUARIO", "Administracion");
             
             // Configuración de RolUsuario
             modelBuilder.Entity<RolUsuario>(entity =>

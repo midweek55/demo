@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiApiDDD.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26bd400b84df35676361dbd30a74c90ae63ff491")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiApiDDD.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiApiDDD.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
